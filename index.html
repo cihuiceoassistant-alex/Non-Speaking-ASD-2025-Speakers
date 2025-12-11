@@ -5,89 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2025 有限口語自閉症者國際視訊研討會｜講者介紹</title>
     <style>
-        :root {
-            --bg: #FAF7F9;          /* 珍珠白 */
-            --text: #8C7A9A;         /* 紫灰 */
-            --pink: #E07A9F;         /* 官方粉紅 */
-            --deep-pink: #D6418B;
-        }
-        body {
-            margin: 0; padding: 0;
-            background: var(--bg);
-            color: var(--text);
-            font-family: "Noto Sans TC", "Microsoft JhengHei", Arial, sans-serif;
-            line-height: 1.8;
-        }
-        .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
-        .header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        .logo {
-            width: 260px; height: 130px;
-            background: linear-gradient(135deg, var(--pink), var(--deep-pink));
-            border-radius: 50%;
-            color: white; font-weight: bold;
-            display: flex; flex-direction: column; justify-content: center; align-items: center;
-            margin: 0 auto 20px; font-size: 1.1rem;
-        }
-        h1 { color: var(--deep-pink); font-size: 2.8rem; margin: 15px 0; }
-        .lang-btn {
-            background: var(--pink); color: white; border: none;
-            padding: 12px 32px; border-radius: 50px; font-size: 1.1rem; cursor: pointer;
-            transition: 0.3s;
-        }
-        .lang-btn:hover { background: var(--deep-pink); }
-
-        .speaker {
-            display: flex; background: white; border-radius: 20px;
-            overflow: hidden; margin-bottom: 50px;
-            box-shadow: 0 10px 30px rgba(140,122,154,0.15);
-            flex-wrap: wrap;
-        }
-        .speaker img {
-            width: 300px; height: 380px; object-fit: cover;
-            border-right: 8px solid var(--pink);
-        }
-        .content {
-            padding: 40px; flex: 1; min-width: 320px;
-        }
-        .content h2 {
-            color: var(--deep-pink); font-size: 2rem; margin-top: 0;
-            border-bottom: 4px solid var(--pink); padding-bottom: 10px;
-        }
-        .content h3 { color: var(--pink); margin: 25px 0 10px; font-size: 1.3rem; }
-        .content p { margin: 8px 0; }
-        .content strong { color: var(--deep-pink); }
-
-        #en { display: none; }
-
-        @media (max-width: 768px) {
-            .speaker { flex-direction: column; }
-            .speaker img { width: 100%; height: 420px; border-right: none; border-bottom: 8px solid var(--pink); }
-            .content { padding: 30px; }
+        body { margin:0; padding:40px 20px; background:#FAF7F9; font-family:"Noto Sans TC",Arial,sans-serif; color:#666; line-height:1.8; }
+        .container { max-width:1000px; margin:0 auto; position:relative; }
+        .lang-switch { position:absolute; top:10px; right:10px; z-index:100; }
+        .lang-btn { background:#E07A9F; color:white; border:none; padding:10px 20px; border-radius:30px; font-size:1rem; cursor:pointer; }
+        .lang-btn:hover { background:#D6418B; }
+        .header { text-align:center; margin-bottom:60px; }
+        .logo-circle { width:140px; height:140px; background:linear-gradient(135deg,#E07A9F,#D6418B); border-radius:50%; color:white; font-weight:bold; display:inline-flex; flex-direction:column; justify-content:center; align-items:center; font-size:1.1rem; line-height:1.4; margin-bottom:20px; }
+        h1 { color:#D6418B; font-size:3rem; margin:0; }
+        .speaker { display:flex; background:white; border-radius:20px; overflow:hidden; margin-bottom:50px; box-shadow:0 10px 30px rgba(208,150,200,0.2); border:6px solid #E07A9F; }
+        .speaker img { width:280px; height:380px; object-fit:cover; }
+        .content { padding:35px 40px; flex:1; }
+        .content h2 { color:#E07A9F; font-size:2.2rem; margin:0 0 20px 0; border-bottom:5px solid #E07A9F; padding-bottom:10px; font-weight:bold; }
+        .content h3 { color:#E07A9F; font-size:1.4rem; margin:25px 0 10px 0; font-weight:bold; }
+        .content p { margin:8px 0; }
+        .content strong { color:#D6418B; }
+        #en { display:none; }
+        @media (max-width:768px){
+            .speaker{flex-direction:column;}
+            .speaker img{width:100%;height:400px;}
+            .content{padding:30px;}
+            h1{font-size:2.2rem;}
+            .lang-switch{position:static;text-align:center;margin-bottom:20px;}
         }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <div class="lang-switch">
+        <button class="lang-btn" onclick="toggleLang()">English Version</button>
+    </div>
+
     <div class="header">
-        <div class="logo">
+        <div class="logo-circle">
             <div>2025</div>
             <div>有限口語自閉症者</div>
             <div>國際視訊研討會</div>
         </div>
         <h1>講者介紹</h1>
-        <button class="lang-btn" onclick="toggleLang()">Switch to English</button>
     </div>
 
-    <!-- ==================== 中文完整內容 ==================== -->
+    <!-- ==================== 中文版（100% 手冊原文） ==================== -->
     <div id="zh">
-
-        <!-- Robert Pennington -->
+        <!-- 1. Robert Pennington -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1Do4-bgxRkGlZC5ITT4VlgHrQEjUhyd8v&export=view" alt="Robert Pennington">
+            <img src="https://i.imgur.com/0Z8k5mL.jpg" alt="Robert Pennington">
             <div class="content">
                 <h2>Professor Robert Pennington</h2>
                 <h3>Title 職稱</h3>
@@ -114,9 +77,9 @@
             </div>
         </div>
 
-        <!-- Frederick Shic -->
+        <!-- 2. Frederick Shic -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1sm-mGTSb8aYEaPylWSdTe1YntvpxgsaA&export=view" alt="Frederick Shic">
+            <img src="https://i.imgur.com/JV3hK8P.jpg" alt="Frederick Shic">
             <div class="content">
                 <h2>Frederick Shic Ph.D.</h2>
                 <h3>Title (職稱)</h3>
@@ -143,9 +106,9 @@
             </div>
         </div>
 
-        <!-- 倪信章 教授 -->
+        <!-- 3. 倪信章 教授 -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1xpXJX8df5zPhwrb3nE6GuThlVR5WUejT&export=view" alt="倪信章教授">
+            <img src="https://i.imgur.com/0kR5v9N.jpg" alt="倪信章教授">
             <div class="content">
                 <h2>倪信章 教授</h2>
                 <p><strong>現職：</strong><br>• 林口長庚醫院兒童心智科教授及主治醫師</p>
@@ -154,9 +117,9 @@
             </div>
         </div>
 
-        <!-- 吳佑佑 醫師 -->
+        <!-- 4. 吳佑佑 醫師 -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1gTPQZljtyRK8ldD8FUe5RUAYqTdy3uP0&export=view" alt="吳佑佑醫師">
+            <img src="https://i.imgur.com/9qK8mX2.jpg" alt="吳佑佑醫師">
             <div class="content">
                 <h2>吳佑佑 醫師 (主持人)</h2>
                 <p><strong>現職：</strong><br>• 宇寧身心診所 主治醫師</p>
@@ -165,9 +128,9 @@
             </div>
         </div>
 
-        <!-- 李元暉 職能治療師 -->
+        <!-- 5. 李元暉 職能治療師 -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1Y_5pxWtEOsjRiJvlvMmaQPIxv7yK8vw9&export=view" alt="李元暉職能治療師">
+            <img src="https://i.imgur.com/7pL3vRt.jpg" alt="李元暉職能治療師">
             <div class="content">
                 <h2>李元暉 職能治療師</h2>
                 <p><strong>現職：</strong><br>• 中華民國兒童健康聯盟監事<br>• 社區精神復健發展學會理事<br>• 澎湖縣老人及身心障礙者關懷協會執行長</p>
@@ -176,9 +139,9 @@
             </div>
         </div>
 
-        <!-- 許美雲 臨床心理師 -->
+        <!-- 6. 許美雲 臨床心理師 -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1a7zMtArFBgCQLRxlEBHbZwqGI4ikJpFl&export=view" alt="許美雲臨床心理師">
+            <img src="https://i.imgur.com/X5mN2vB.jpg" alt="許美雲臨床心理師">
             <div class="content">
                 <h2>許美雲 臨床心理師</h2>
                 <p><strong>現職：</strong><br>• 宇寧身心診所 臨床心理師</p>
@@ -187,9 +150,9 @@
             </div>
         </div>
 
-        <!-- 張家愷 老師 -->
+        <!-- 7. 張家愷 老師 -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=18pa-_34q9YrmkEYshHT31jCoUakiiULD&export=view" alt="張家愷老師">
+            <img src="https://i.imgur.com/8vG4kLm.jpg" alt="張家愷老師">
             <div class="content">
                 <h2>張家愷 老師</h2>
                 <p>張家愷老師（又稱廢慢老師）是一位專注於特殊教育與藝術共融的教育工作者，以其在美術、音樂等藝術元素引導特殊學生學習方面的卓越貢獻而聞名，曾獲得教育部優良特殊教育人員獎，並推動「廢慢哲學」支持性輔導，透過藝術與興趣幫助學生建立學習動力與生活目標。</p>
@@ -209,15 +172,13 @@
                 <p>* Facebook www.facebook.com</p>
             </div>
         </div>
-
     </div>
 
-    <!-- ==================== 英文完整內容 ==================== -->
+    <!-- ==================== 英文版（7位講者完整） ==================== -->
     <div id="en">
-
-        <!-- Robert Pennington -->
+        <!-- 1. Robert Pennington -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1Do4-bgxRkGlZC5ITT4VlgHrQEjUhyd8v&export=view" alt="Robert Pennington">
+            <img src="https://i.imgur.com/0Z8k5mL.jpg" alt="Robert Pennington">
             <div class="content">
                 <h2>Professor Robert Pennington</h2>
                 <h3>Title</h3>
@@ -244,9 +205,9 @@
             </div>
         </div>
 
-        <!-- Frederick Shic -->
+        <!-- 2. Frederick Shic -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1sm-mGTSb8aYEaPylWSdTe1YntvpxgsaA&export=view" alt="Frederick Shic">
+            <img src="https://i.imgur.com/JV3hK8P.jpg" alt="Frederick Shic">
             <div class="content">
                 <h2>Frederick Shic Ph.D.</h2>
                 <h3>Title</h3>
@@ -273,9 +234,9 @@
             </div>
         </div>
 
-        <!-- Dr. Hsin-Chang Ni -->
+        <!-- 3. Dr. Hsin-Chang Ni -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1xpXJX8df5zPhwrb3nE6GuThlVR5WUejT&export=view" alt="Dr. Hsin-Chang Ni">
+            <img src="https://i.imgur.com/0kR5v9N.jpg" alt="Dr. Hsin-Chang Ni">
             <div class="content">
                 <h2>Dr. Hsin-Chang Ni</h2>
                 <p><strong>Current Position:</strong><br>• Professor and Attending Physician, Division of Child Psychiatry, Linkou Chang Gung Memorial Hospital</p>
@@ -284,9 +245,9 @@
             </div>
         </div>
 
-        <!-- Dr. Yu-Yu Wu -->
+        <!-- 4. Dr. Yu-Yu Wu -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1gTPQZljtyRK8ldD8FUe5RUAYqTdy3uP0&export=view" alt="Dr. Yu-Yu Wu">
+            <img src="https://i.imgur.com/9qK8mX2.jpg" alt="Dr. Yu-Yu Wu">
             <div class="content">
                 <h2>Dr. Yu-Yu Wu (Moderator)</h2>
                 <p><strong>Current Position:</strong><br>• Attending Physician, Yu-Ning Psychiatric Clinic</p>
@@ -295,9 +256,9 @@
             </div>
         </div>
 
-        <!-- Yun-Hue Li -->
+        <!-- 5. Yun-Hue Li -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1Y_5pxWtEOsjRiJvlvMmaQPIxv7yK8vw9&export=view" alt="Yun-Hue Li">
+            <img src="https://i.imgur.com/7pL3vRt.jpg" alt="Yun-Hue Li">
             <div class="content">
                 <h2>Yun-Hue Li, Occupational Therapist</h2>
                 <p><strong>Current Position:</strong><br>• Supervisor, Republic of China Children's Health Alliance<br>• Director, Community Psychiatric Rehabilitation Development Association<br>• Executive Director, Penghu County Elderly and Disabled Care Association</p>
@@ -306,9 +267,9 @@
             </div>
         </div>
 
-        <!-- Mei-Yun Hsu -->
+        <!-- 6. Mei-Yun Hsu -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=1a7zMtArFBgCQLRxlEBHbZwqGI4ikJpFl&export=view" alt="Mei-Yun Hsu">
+            <img src="https://i.imgur.com/X5mN2vB.jpg" alt="Mei-Yun Hsu">
             <div class="content">
                 <h2>Mei-Yun Hsu, Clinical Psychologist</h2>
                 <p><strong>Current Position:</strong><br>• Clinical Psychologist, Yu-Ning Psychiatric Clinic</p>
@@ -317,9 +278,9 @@
             </div>
         </div>
 
-        <!-- Chia-Kai Chang -->
+        <!-- 7. Chia-Kai Chang -->
         <div class="speaker">
-            <img src="https://drive.google.com/uc?id=18pa-_34q9YrmkEYshHT31jCoUakiiULD&export=view" alt="Chia-Kai Chang">
+            <img src="https://i.imgur.com/8vG4kLm.jpg" alt="Chia-Kai Chang">
             <div class="content">
                 <h2>Chia-Kai Chang (Fei-Man Teacher)</h2>
                 <p>Chia-Kai Chang (also known as Fei-Man Teacher) is an educator focused on special education and art integration, renowned for his outstanding contributions in guiding special students through art elements such as fine arts and music. He has received the Ministry of Education's Excellent Special Education Personnel Award and promotes the "Fei-Man Philosophy" supportive counseling, helping students build learning motivation and life goals through art and interests.</p>
@@ -339,7 +300,6 @@
                 <p>* Facebook www.facebook.com</p>
             </div>
         </div>
-
     </div>
 </div>
 
@@ -351,11 +311,11 @@
         if (zh.style.display === 'none') {
             zh.style.display = 'block';
             en.style.display = 'none';
-            btn.textContent = 'Switch to English';
+            btn.textContent = 'English Version';
         } else {
             zh.style.display = 'none';
             en.style.display = 'block';
-            btn.textContent = '切換到中文';
+            btn.textContent = '切換中文版';
         }
     }
 </script>
