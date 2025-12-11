@@ -5,301 +5,320 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2025 有限口語自閉症者國際視訊研討會｜講者介紹</title>
     <style>
-        body { 
-            margin: 0; padding: 40px 20px; 
-            background: #FAF7F9; /* 珍珠白 */
-            font-family: "Noto Sans TC", "Microsoft JhengHei", Arial, sans-serif; 
-            color: #8C7A9A; /* 紫灰 */
-            line-height: 1.8;
-        }
-        .container { max-width: 1000px; margin: 0 auto; position: relative; }
-        .lang-switch { position: absolute; top: 10px; right: 10px; z-index: 100; }
-        .lang-btn { 
-            background: #E07A9F; /* 粉紅 */
-            color: white; border: none; padding: 10px 20px; border-radius: 30px; font-size: 1rem; cursor: pointer; 
-        }
-        .lang-btn:hover { background: #D6418B; }
-        .header { text-align: center; margin-bottom: 60px; }
-        .logo-circle { 
-            width: 140px; height: 140px; 
-            background: linear-gradient(135deg, #E07A9F, #D6418B); /* 粉紅漸層 */
-            border-radius: 50%; color: white; font-weight: bold; 
-            display: inline-flex; flex-direction: column; justify-content: center; align-items: center; 
-            font-size: 1.1rem; line-height: 1.4; margin-bottom: 20px; 
-        }
-        h1 { color: #D6418B; font-size: 3rem; margin: 0; }
-        .speaker { 
-            display: flex; background: white; border-radius: 20px; overflow: hidden; margin-bottom: 50px; 
-            box-shadow: 0 10px 30px rgba(208, 150, 200, 0.2); border: 6px solid #E07A9F; /* 粉紅邊框 */
-        }
-        .speaker img { width: 280px; height: 380px; object-fit: cover; }
-        .content { padding: 35px 40px; flex: 1; }
-        .content h2 { 
-            color: #E07A9F; font-size: 2.2rem; margin: 0 0 20px 0; 
-            border-bottom: 5px solid #E07A9F; padding-bottom: 10px; font-weight: bold; 
-        }
-        .content h3 { color: #E07A9F; font-size: 1.4rem; margin: 25px 0 10px 0; font-weight: bold; }
-        .content p { margin: 8px 0; }
-        .content strong { color: #D6418B; }
-        #en { display: none; }
-        @media (max-width: 768px) {
-            .speaker { flex-direction: column; }
-            .speaker img { width: 100%; height: 400px; }
-            .content { padding: 30px; }
-            h1 { font-size: 2.2rem; }
-            .lang-switch { position: static; text-align: center; margin-bottom: 20px; }
+        body { margin:0; padding:40px 20px; background:#FAF7F9; font-family:"Noto Sans TC",Arial,sans-serif; color:#666; line-height:1.8; }
+        .container { max-width:1000px; margin:0 auto; position:relative; }
+        .lang-switch { position:absolute; top:10px; right:10px; z-index:100; }
+        .lang-btn { background:#E07A9F; color:white; border:none; padding:10px 20px; border-radius:30px; font-size:1rem; cursor:pointer; }
+        .lang-btn:hover { background:#D6418B; }
+        .header { text-align:center; margin-bottom:60px; }
+        .logo-circle { width:140px; height:140px; background:linear-gradient(135deg,#E07A9F,#D6418B); border-radius:50%; color:white; font-weight:bold; display:inline-flex; flex-direction:column; justify-content:center; align-items:center; font-size:1.1rem; line-height:1.4; margin-bottom:20px; }
+        h1 { color:#D6418B; font-size:3rem; margin:0; }
+        .speaker { display:flex; background:white; border-radius:20px; overflow:hidden; margin-bottom:50px; box-shadow:0 10px 30px rgba(208,150,200,0.2); border:6px solid #E07A9F; }
+        .speaker img { width:280px; height:380px; object-fit:cover; }
+        .content { padding:35px 40px; flex:1; }
+        .content h2 { color:#E07A9F; font-size:2.2rem; margin:0 0 20px 0; border-bottom:5px solid #E07A9F; padding-bottom:10px; font-weight:bold; }
+        .content h3 { color:#E07A9F; font-size:1.4rem; margin:25px 0 10px 0; font-weight:bold; }
+        .content p { margin:8px 0; }
+        .content strong { color:#D6418B; }
+        #en { display:none; }
+        @media (max-width:768px){
+            .speaker{flex-direction:column;}
+            .speaker img{width:100%;height:400px;}
+            .content{padding:30px;}
+            h1{font-size:2.2rem;}
+            .lang-switch{position:static;text-align:center;margin-bottom:20px;}
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- 中英文切換按鈕 -->
-        <div class="lang-switch">
-            <button class="lang-btn" onclick="toggleLang()">English Version</button>
+
+<div class="container">
+    <div class="lang-switch">
+        <button class="lang-btn" onclick="toggleLang()">English Version</button>
+    </div>
+
+    <div class="header">
+        <div class="logo-circle">
+            <div>2025</div>
+            <div>有限口語自閉症者</div>
+            <div>國際視訊研討會</div>
         </div>
+        <h1>講者介紹</h1>
+    </div>
 
-        <!-- 標題 -->
-        <div class="header">
-            <div class="logo-circle">
-                <div>2025</div>
-                <div>有限口語自閉症者</div>
-                <div>國際視訊研討會</div>
-            </div>
-            <h1>講者介紹</h1>
-        </div>
-
-        <!-- 中文版 -->
-        <div id="zh">
-            <!-- 1. Dr. Robert Pennington -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1Do4-bgxRkGlZC5ITT4VlgHrQEjUhyd8v" alt="Dr. Robert Pennington">
-                <div class="content">
-                    <h2>Professor Robert Pennington</h2>
-                    <h3>Title 職稱</h3>
-                    <p>• 肯塔基大學 U.K.教育學院，特殊教育學講座教授</p>
-                    <p>• 俄亥俄州自閉症和低發生率中心 (OCALI) 融合教育實踐卓越中心主任</p>
-                    <h3>Education 學歷</h3>
-                    <p>• 博士 (Ph.D.)：特殊教育學，肯塔基大學 (University of Kentucky)</p>
-                    <h3>Expertise 專業領域</h3>
-                    <p>• 強調基於事實基礎的應用行為分析 (Applied Behavior Analysis, ABA)與實證。</p>
-                    <p>• 書面表達：研究使用系統化教學、回應提示 (response prompting) 和結構框架 (frames) 來教授寫作技能，例如句子建構和故事寫作。</p>
-                    <p>• 利用自主驅動的教學計畫和電腦輔助教學來提升學生的寫作能力。</p>
-                    <p>• 功能性溝通訓練 (Functional Communication Training, FCT)，以及提供行為支持以應對挑戰性行為。</p>
-                    <p>• 研究社交機器人 (social robot prompter/mediator) 對 ASD 兒童互動與社交技能的影響。</p>
-                    <p>• 共同開發了用於評估課程品質的自閉症和低發生率教室觀察工具 (ALCOT)；致力於提升教師在核心內容 (core content expertise) 方面的專業知識。</p>
-                    <h3>Certification and Award 專業資格與榮譽</h3>
-                    <p>• 專業資格：博士級委員會認證行為分析師 (Board Certified Behavior Analyst, Doctoral Level, BCBA-D)</p>
-                    <p>• 教學證書：持有肯塔基州中度至重度障礙 (K-12) 和基礎教育 (K-4) 教學證書</p>
-                    <p>• 榮譽獎項：Felix S. Barker Award、KYABA 行為分析創新者獎、路易斯維爾大學校長傑出教職獎。</p>
-                    <h3>Research Funding and Leadership 研究與經費</h3>
-                    <p>• 總研究經費：參與或領導多個百萬美元級的美國特殊教育項目辦公室 (OSEP) 資助項目，截至目前，已獲得總計超過 $950 萬的研究經費與合約，積極培訓特殊教育領導者和專業人員，推動全納實踐的品質和實施，特別是將應用行為分析的原則融入學校環境。</p>
-                    <h3>Abstract (摘要)</h3>
-                    <p>• Robert Pennington 教授是特殊教育和行為分析領域的權威，致力於為具有廣泛支持需求 (Extensive Support Needs, ESN)、自閉症譜系障礙 (ASD) 和智能/發展障礙 (IDD) 的學生改善教育成果。</p>
-                    <p>• 他的研究和實踐集中在開發和測試實證基礎策略 (EBP)，特別是在使用技術和系統化教學來提升學生的學術寫作能力和溝通技能方面具有顯著影響。</p>
-                </div>
-            </div>
-
-            <!-- 2. Frederick Shic, Ph.D. -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1sm-mGTSb8aYEaPylWSdTe1YntvpxgsaA" alt="Frederick Shic, Ph.D.">
-                <div class="content">
-                    <h2>Frederick Shic Ph.D.</h2>
-                    <h3>Title (職稱)</h3>
-                    <p>• 華盛頓大學醫學院兒科學教授、計算機科學與工程學兼任教授、心理學兼任教授</p>
-                    <p>• 華盛頓大學西雅圖兒童創新技術實驗室(SCTI) 主任</p>
-                    <p>• 西雅圖兒童醫院兒童研究院的兒童健康與行為發展中心首席研究員</p>
-                    <p>• 華盛頓大學發展與殘疾研究所 (UW IHDD) 研究員</p>
-                    <h3>Education (學歷)</h3>
-                    <p>• 計算機科學博士 (Ph.D.)，耶魯大學 (University of Yale)</p>
-                    <h3>Expertise (專業領域)</h3>
-                    <p>• 探討與自閉症及其他神經精神疾病相關的機制 (mechanisms)、標誌物 (markers) 和發展過程 (developmental processes)，專注於利用跨學科方法——特別是結合應用計算機科學、工程學與兒科學——來研究自閉症和其他發展障礙。</p>
-                    <p>• 神經行為技術：應用創新眼動追蹤 (eye-tracking) 技術，研究嬰幼兒和自閉症兒童的社會與認知發展。</p>
-                    <p>• 神經生理學技術：使用近紅外光譜 (near-infrared spectroscopy)、和磁振頻譜 (magnetic resonance spectroscopy) 技術開發用於量化和可視化大腦代謝和神經化學的技術。</p>
-                    <p>• 技術增強行為方法：利用移動應用程式 (mobile applications)、社交機器人 (social robots) 和電玩遊戲 (video games) 進行研究。</p>
-                    <h3>Experience (經歷)</h3>
-                    <p>• 美國兒科醫學學會 (American Pediatric Society, APS) 會士。APS 是表彰那些通過領導力、教育、研究、政策和臨床護理，對兒童健康做出卓越貢獻的人士。</p>
-                    <p>• 其研究工作獲得多個機構的支持與資助，包括美國國家心理衛生研究院 (NIMH)、教育科學研究所 (IES)、Simons Foundation 和 Autism Speaks 自閉症之聲等。</p>
-                    <p>• 耶魯大學醫學院科技創新實驗室 (TIL)主任。</p>
-                    <p>• 耶魯大學醫學院助理教授。</p>
-                    <h3>Abstract (摘要)</h3>
-                    <p>• Frederick Shic 教授是一位傑出的學者，他的使命是將技術與臨床洞察力相結合，打造下一代工具，以了解和改善患有自閉症和其他發展障礙兒童的生活。</p>
-                    <p>• 致力於運用神經行為學技術 (眼動追蹤)、神經生理學技術 (功能性近紅外光譜) 以及涉及行動應用程式、社交機器人和電子遊戲等技術增強型行為範式，研究與自閉症和其他神經精神疾病相關的機制、標誌物和發育過程。</p>
-                    <p>• 近期領導西雅圖兒童創新技術實驗室(SCTI)，透過非侵入性技術 (如眼動追蹤和神經影像) 尋找新的生物標誌物，以加深對自閉症社會和認知發展的理解。並致力於開發下一代臨床工具，透過創新技術 (如社交機器人和移動應用程式) 來改善自閉症兒童及其家庭的生活結果。</p>
-                </div>
-            </div>
-
-            <!-- 3. 倪信章教授 -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1xpXJX8df5zPhwrb3nE6GuThlVR5WUejT" alt="倪信章教授">
-                <div class="content">
-                    <h2>倪信章 教授</h2>
-                    <p><strong>現職：</strong><br>• 林口長庚醫院兒童心智科教授及主治醫師</p>
-                    <p><strong>經歷：</strong><br>• 新北市身心障礙者權益保障推定小組委員（現職）<br>• 台灣兒童青少年發展障礙學會常務理事（現職）<br>• 台大醫院兒童心智科研究員<br>• 兒童青少年精神醫學會祕書長</p>
-                    <p><strong>專長：</strong><br>• 自閉症、亞斯伯格症、注意力缺失過動症、兒童青少年焦慮憂鬱症</p>
-                </div>
-            </div>
-
-            <!-- 4. 吳佑佑醫師 -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1gTPQZljtyRK8ldD8FUe5RUAYqTdy3uP0" alt="吳佑佑醫師">
-                <div class="content">
-                    <h2>吳佑佑 醫師 (主持人)</h2>
-                    <p><strong>現職：</strong><br>• 宇寧身心診所 主治醫師</p>
-                    <p><strong>經歷：</strong><br>• 林口長庚醫院兒童心智科主任<br>• 國立新竹教育大學特教系兼任講師<br>• 美國耶魯大學兒童研究中心研究員<br>• 台大醫院兒童心理衛生中心研究員</p>
-                    <p><strong>專長：</strong><br>• 兒童青少年精神醫學、嬰幼兒發展評估、成人精神醫學、睡眠醫學</p>
-                </div>
-            </div>
-
-            <!-- 5. 李元暉職能治療師 -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1Y_5pxWtEOsjRiJvlvMmaQPIxv7yK8vw9" alt="李元暉職能治療師">
-                <div class="content">
-                    <h2>李元暉 職能治療師</h2>
-                    <p><strong>現職：</strong><br>• 中華民國兒童健康聯盟監事<br>• 社區精神復健發展學會理事<br>• 澎湖縣老人及身心障礙者關懷協會執行長</p>
-                    <p><strong>學歷：</strong><br>• 東吳法律專業碩士班畢業<br>• 台大職能治療系畢業</p>
-                    <p><strong>經歷：</strong><br>• 義守大學職能治療學系講師<br>• 職能治療師全聯會理事<br>• 營養師全聯會顧問專長</p>
-                </div>
-            </div>
-
-            <!-- 6. 許美雲臨床心理師 -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1a7zMtArFBgCQLRxlEBHbZwqGI4ikJpFl" alt="許美雲臨床心理師">
-                <div class="content">
-                    <h2>許美雲 臨床心理師</h2>
-                    <p><strong>現職：</strong><br>• 宇寧身心診所 臨床心理師</p>
-                    <p><strong>學歷：</strong><br>• 中原大學心理研究所</p>
-                    <p><strong>經歷：</strong><br>• 林口長庚醫院兒童心智科臨床心理師<br>• 桃園市特教專業團隊兼任臨床心理師<br>• 中原大學心理系兼任講師</p>
-                </div>
-            </div>
-
-            <!-- 7. 張家愷老師 -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=18pa-_34q9YrmkEYshHT31jCoUakiiULD" alt="張家愷老師">
-                <div class="content">
-                    <h2>張家愷 老師</h2>
-                    <p>張家愷老師（又稱廢慢老師）是一位專注於特殊教育與藝術共融的教育工作者，以其在美術、音樂等藝術元素引導特殊學生學習方面的卓越貢獻而聞名，曾獲得教育部優良特殊教育人員獎，並推動「廢慢哲學」支持性輔導，透過藝術與興趣幫助學生建立學習動力與生活目標。</p>
-                    <p><strong>主要特色與貢獻</strong></p>
-                    <p>* 藝術與特殊教育融合：相信藝術能吸引學習動機低的特教生，將藝術融入課程，提升學生專注力與生活品質。</p>
-                    <p>* 「廢慢哲學」：提倡慢活、有品質的學習與生活，透過「廢棄物利用」與「慢」的創作過程，引導學生探索興趣。</p>
-                    <p>* 多元教學：設計創新的特教藝術課程、舉辦教師工作坊、提供個別化學習策略，並關注學校圖書館的藝術文化功能。</p>
-                    <p>* 輔導與支持：提供心理輔導與支持團體，幫助特殊學生找到生活目標與熱情。</p>
-                    <p>* 獲獎肯定：榮獲教育部全國優良特殊教育人員獎、新北藝術教育貢獻獎。</p>
-                    <p>* 活動達人：除了教育，也以「張家愷老師」的身份進行親子魔術表演，推廣專注、表達等能力。</p>
-                    <p><strong>教育背景</strong></p>
-                    <p>* 國立彰化師範大學學士。</p>
-                    <p>* 華梵大學美術與文創學系碩士。</p>
-                    <p><strong>尋找更多資訊</strong></p>
-                    <p>* Linktree (廢慢老師)</p>
-                    <p>* LinkedIn</p>
-                    <p>* Facebook www.facebook.com</p>
-                </div>
+    <!-- ==================== 中文版（100% 手冊原文） ==================== -->
+    <div id="zh">
+        <!-- 1. Robert Pennington -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1Do4-bgxRkGlZC5ITT4VlgHrQEjUhyd8v" alt="Robert Pennington">
+            <div class="content">
+                <h2>Professor Robert Pennington</h2>
+                <h3>Title 職稱</h3>
+                <p>• 肯塔基大學 U.K.教育學院，特殊教育學講座教授</p>
+                <p>• 俄亥俄州自閉症和低發生率中心 (OCALI) 融合教育實踐卓越中心主任</p>
+                <h3>Education 學歷</h3>
+                <p>• 博士 (Ph.D.)：特殊教育學，肯塔基大學 (University of Kentucky)</p>
+                <h3>Expertise 專業領域</h3>
+                <p>• 強調基於事實基礎的應用行為分析 (Applied Behavior Analysis, ABA)與實證。</p>
+                <p>• 書面表達：研究使用系統化教學、回應提示 (response prompting) 和結構框架 (frames) 來教授寫作技能，例如句子建構和故事寫作。</p>
+                <p>• 利用自主驅動的教學計畫和電腦輔助教學來提升學生的寫作能力。</p>
+                <p>• 功能性溝通訓練 (Functional Communication Training, FCT)，以及提供行為支持以應對挑戰性行為。</p>
+                <p>• 研究社交機器人 (social robot prompter/mediator) 對 ASD 兒童互動與社交技能的影響。</p>
+                <p>• 共同開發了用於評估課程品質的自閉症和低發生率教室觀察工具 (ALCOT)；致力於提升教師在核心內容 (core content expertise) 方面的專業知識。</p>
+                <h3>Certification and Award 專業資格與榮譽</h3>
+                <p>• 專業資格：博士級委員會認證行為分析師 (Board Certified Behavior Analyst, Doctoral Level, BCBA-D)</p>
+                <p>• 教學證書：持有肯塔基州中度至重度障礙 (K-12) 和基礎教育 (K-4) 教學證書</p>
+                <p>• 榮譽獎項：Felix S. Barker Award、KYABA 行為分析創新者獎、路易斯維爾大學校長傑出教職獎。</p>
+                <h3>Research Funding and Leadership 研究與經費</h3>
+                <p>• 總研究經費：參與或領導多個百萬美元級的美國特殊教育項目辦公室 (OSEP) 資助項目，截至目前，已獲得總計超過 $950 萬的研究經費與合約，積極培訓特殊教育領導者和專業人員，推動全納實踐的品質和實施，特別是將應用行為分析的原則融入學校環境。</p>
+                <h3>Abstract (摘要)</h3>
+                <p>• Robert Pennington 教授是特殊教育和行為分析領域的權威，致力於為具有廣泛支持需求 (Extensive Support Needs, ESN)、自閉症譜系障礙 (ASD) 和智能/發展障礙 (IDD) 的學生改善教育成果。</p>
+                <p>• 他的研究和實踐集中在開發和測試實證基礎策略 (EBP)，特別是在使用技術和系統化教學來提升學生的學術寫作能力和溝通技能方面具有顯著影響。</p>
             </div>
         </div>
 
-        <!-- 英文版 -->
-        <div id="en">
-            <!-- 1. Dr. Robert Pennington -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1Do4-bgxRkGlZC5ITT4VlgHrQEjUhyd8v" alt="Dr. Robert Pennington">
-                <div class="content">
-                    <h2>Professor Robert Pennington</h2>
-                    <h3>Title</h3>
-                    <p>• Professor and William T. Bryan Endowed Chair in Technology at the University of Kentucky.</p>
-                    <p>• Director of the Center of Excellence on Inclusive Practice at the Ohio Center for Autism and Low Incidence (OCALI).</p>
-                    <h3>Education</h3>
-                    <p>• Ph.D. in Special Education from the University of Kentucky.</p>
-                    <h3>Expertise</h3>
-                    <p>• Core Focus: Applied Behavior Analysis (ABA), emphasizing evidence-based practices (EBPs) for students with disabilities.</p>
-                    <p>• Researching systematic instruction, such as using response prompting and frames, to teach complex written expression skills (e.g., sentence construction, writing about text).</p>
-                    <p>• Investigating the effectiveness of autonomous technology-based instructional programs for teaching writing.</p>
-                    <p>• Developing and evaluating strategies like Functional Communication Training (FCT) to address challenging behavior and build communicative competence.</p>
-                    <p>• Utilizing innovative technologies, including social robots, to facilitate social skills and peer interactions for children with ASD.</p>
-                    <p>• Professional Development: Focused on improving the quality of teacher preparation, including co-developing the Autism and Low Incidence Classroom Observation Tool (ALCOT) and promoting High Leverage Practices.</p>
-                    <h3>Certification and Award</h3>
-                    <p>• Certification: Board Certified Behavior Analyst, Doctoral Level (BCBA-D).</p>
-                    <p>• Licenses: Holds Kentucky Teaching Certificates for Moderate to Severe Disabilities (K-12) and Elementary Education (K-4).</p>
-                    <p>• Selected Honors: Recipient of the Felix S. Barker Award, the KYABA Innovator in Behavior Analysis Award, and the UL President's Distinguished Faculty Award.</p>
-                    <h3>Research Funding and Leadership</h3>
-                    <p>• He actively drives professional development initiatives, having directed federally funded projects totaling over $9.5 million, aimed at integrating high-quality, evidence-based behavioral and instructional practices into inclusive school environments.</p>
-                    <h3>Abstract</h3>
-                    <p>• Dr. Pennington is a prominent special education researcher specializing in Applied Behavior Analysis and the needs of students with ASD and Extensive Support Needs (ESN).</p>
-                    <p>• His research has demonstrated the efficacy of using systematic instruction and technology to build crucial academic skills, particularly written expression (e.g., sentence construction and paragraph writing).</p>
-                </div>
+        <!-- 2. Frederick Shic -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1sm-mGTSb8aYEaPylWSdTe1YntvpxgsaA" alt="Frederick Shic">
+            <div class="content">
+                <h2>Frederick Shic Ph.D.</h2>
+                <h3>Title (職稱)</h3>
+                <p>• 華盛頓大學醫學院兒科學教授、計算機科學與工程學兼任教授、心理學兼任教授</p>
+                <p>• 華盛頓大學西雅圖兒童創新技術實驗室(SCTI) 主任</p>
+                <p>• 西雅圖兒童醫院兒童研究院的兒童健康與行為發展中心首席研究員</p>
+                <p>• 華盛頓大學發展與殘疾研究所 (UW IHDD) 研究員</p>
+                <h3>Education (學歷)</h3>
+                <p>• 計算機科學博士 (Ph.D.)，耶魯大學 (University of Yale)</p>
+                <h3>Expertise (專業領域)</h3>
+                <p>• 探討與自閉症及其他神經精神疾病相關的機制 (mechanisms)、標誌物 (markers) 和發展過程 (developmental processes)，專注於利用跨學科方法——特別是結合應用計算機科學、工程學與兒科學——來研究自閉症和其他發展障礙。</p>
+                <p>• 神經行為技術：應用創新眼動追蹤 (eye-tracking) 技術，研究嬰幼兒和自閉症兒童的社會與認知發展。</p>
+                <p>• 神經生理學技術：使用近紅外光譜 (near-infrared spectroscopy)、和磁振頻譜 (magnetic resonance spectroscopy) 技術開發用於量化和可視化大腦代謝和神經化學的技術。</p>
+                <p>• 技術增強行為方法：利用移動應用程式 (mobile applications)、社交機器人 (social robots) 和電玩遊戲 (video games) 進行研究。</p>
+                <h3>Experience (經歷)</h3>
+                <p>• 美國兒科醫學學會 (American Pediatric Society, APS) 會士。</p>
+                <p>• 其研究工作獲得多個機構的支持與資助，包括美國國家心理衛生研究院 (NIMH)、教育科學研究所 (IES)、Simons Foundation 和 Autism Speaks 自閉症之聲等。</p>
+                <p>• 耶魯大學醫學院科技創新實驗室 (TIL)主任。</p>
+                <p>• 耶魯大學醫學院助理教授。</p>
+                <h3>Abstract (摘要)</h3>
+                <p>• Frederick Shic 教授是一位傑出的學者，他的使命是將技術與臨床洞察力相結合，打造下一代工具，以了解和改善患有自閉症和其他發展障礙兒童的生活。</p>
+                <p>• 致力於運用神經行為學技術 (眼動追蹤)、神經生理學技術 (功能性近紅外光譜) 以及涉及行動應用程式、社交機器人和電子遊戲等技術增強型行為範式，研究與自閉症和其他神經精神疾病相關的機制、標誌物和發育過程。</p>
+                <p>• 近期領導西雅圖兒童創新技術實驗室(SCTI)，透過非侵入性技術 (如眼動追蹤和神經影像) 尋找新的生物標誌物，以加深對自閉症社會和認知發展的理解。並致力於開發下一代臨床工具，透過創新技術 (如社交機器人和移動應用程式) 來改善自閉症兒童及其家庭的生活結果。</p>
             </div>
+        </div>
 
-            <!-- 2. Frederick Shic, Ph.D. -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1sm-mGTSb8aYEaPylWSdTe1YntvpxgsaA" alt="Frederick Shic, Ph.D.">
-                <div class="content">
-                    <h2>Frederick Shic Ph.D.</h2>
-                    <h3>Title</h3>
-                    <p>• Professor of Pediatrics, Adjunct Professor of Computer Science and Engineering, and Adjunct Professor of Psychology, University of Washington</p>
-                    <p>• Director, Seattle Children's Innovative Technologies Laboratory (SCITL), University of Washington</p>
-                    <p>• Principal Investigator, Center for Child Health and Behavioral Development, Seattle Children's Research Institute</p>
-                    <p>• Researcher, University of Washington Institute for Human Development and Disability (UW IHDD)</p>
-                    <h3>Education</h3>
-                    <p>• Ph.D. in Computer Science, Yale University</p>
-                    <h3>Expertise</h3>
-                    <p>• Explores mechanisms, markers, and developmental processes related to autism and other neuropsychiatric disorders, specializing in interdisciplinary research that integrates computer science, engineering, and pediatrics to investigate autism and developmental disabilities.</p>
-                    <p>• Neurobehavioral Technologies: Applies innovative eye-tracking techniques to study social and cognitive development in infants and children with autism.</p>
-                    <p>• Neurophysiological Techniques: Develops quantitative and visualization tools for brain metabolism and neurochemistry using near-infrared spectroscopy and magnetic resonance spectroscopy.</p>
-                    <p>• Technology-Enhanced Behavioral Approaches: Utilizes mobile applications, social robots, and video games for research.</p>
-                    <h3>Experience</h3>
-                    <p>• Fellow of the American Pediatric Society (APS), which honors outstanding individuals who have made exceptional contributions to child health through leadership, education, research, policy, and clinical care.</p>
-                    <p>• Research has been supported and funded by multiple organizations, including the National Institute of Mental Health (NIMH), Institute of Education Sciences (IES), Simons Foundation, and Autism Speaks.</p>
-                    <p>• Former Director, Technology Innovation Laboratory (TIL), Yale School of Medicine.</p>
-                    <p>• Former Assistant Professor, Yale School of Medicine.</p>
-                    <h3>Abstract</h3>
-                    <p>• Professor Frederick Shic is a distinguished scholar dedicated to integrating technology with clinical insight to develop innovative tools for understanding and improving the lives of children with autism and other developmental disabilities.</p>
-                    <p>• His research employs neurobehavioral techniques such as eye-tracking, neurophysiological methods including functional near-infrared spectroscopy, and technology-enhanced behavioral paradigms involving mobile applications, social robots, and video games to investigate mechanisms, biomarkers, and developmental processes related to autism and other neuropsychiatric disorders.</p>
-                    <p>• As the leader of Seattle Children's Innovative Technologies Laboratory (SCITL), he focuses on identifying novel biomarkers and advancing the understanding of social and cognitive development in autism through non-invasive techniques like eye-tracking and neuroimaging, aiming to develop next-generation clinical tools to improve outcomes for affected children and their families.</p>
-                </div>
+        <!-- 3. 倪信章 教授 -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1xpXJX8df5zPhwrb3nE6GuThlVR5WUejT" alt="倪信章教授">
+            <div class="content">
+                <h2>倪信章 教授</h2>
+                <p><strong>現職：</strong><br>• 林口長庚醫院兒童心智科教授及主治醫師</p>
+                <p><strong>經歷：</strong><br>• 新北市身心障礙者權益保障推定小組委員（現職）<br>• 台灣兒童青少年發展障礙學會常務理事（現職）<br>• 台大醫院兒童心智科研究員<br>• 兒童青少年精神醫學會祕書長</p>
+                <p><strong>專長：</strong><br>• 自閉症、亞斯伯格症、注意力缺失過動症、兒童青少年焦慮憂鬱症</p>
             </div>
+        </div>
 
-            <!-- 3. Dr. Hsin-Chang Ni -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1xpXJX8df5zPhwrb3nE6GuThlVR5WUejT" alt="Dr. Hsin-Chang Ni">
-                <div class="content">
-                    <h2>Dr. Hsin-Chang Ni</h2>
-                    <p><strong>Current Position:</strong><br>• Professor and Attending Physician, Division of Child Psychiatry, Linkou Chang Gung Memorial Hospital</p>
-                    <p><strong>Experience:</strong><br>• Member, New Taipei City Disability Rights Promotion Group (Current)<br>• Executive Director, Taiwan Society of Child and Adolescent Developmental Disabilities (Current)<br>• Researcher, Division of Child Psychiatry, National Taiwan University Hospital<br>• Secretary-General, Taiwan Academy of Child and Adolescent Psychiatry</p>
-                    <p><strong>Specialties:</strong><br>• Autism, Asperger's Syndrome, ADHD, Child and Adolescent Anxiety and Depression</p>
-                </div>
+        <!-- 4. 吳佑佑 醫師 -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1gTPQZljtyRK8ldD8FUe5RUAYqTdy3uP0" alt="吳佑佑醫師">
+            <div class="content">
+                <h2>吳佑佑 醫師 (主持人)</h2>
+                <p><strong>現職：</strong><br>• 宇寧身心診所 主治醫師</p>
+                <p><strong>經歷：</strong><br>• 林口長庚醫院兒童心智科主任<br>• 國立新竹教育大學特教系兼任講師<br>• 美國耶魯大學兒童研究中心研究員<br>• 台大醫院兒童心理衛生中心研究員</p>
+                <p><strong>專長：</strong><br>• 兒童青少年精神醫學、嬰幼兒發展評估、成人精神醫學、睡眠醫學</p>
             </div>
+        </div>
 
-            <!-- 4. Dr. Yu-Yu Wu -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1gTPQZljtyRK8ldD8FUe5RUAYqTdy3uP0" alt="Dr. Yu-Yu Wu">
-                <div class="content">
-                    <h2>Dr. Yu-Yu Wu (Moderator)</h2>
-                    <p><strong>Current Position:</strong><br>• Attending Physician, Yu-Ning Psychiatric Clinic</p>
-                    <p><strong>Experience:</strong><br>• Former Director, Division of Child Psychiatry, Linkou Chang Gung Memorial Hospital<br>• Adjunct Lecturer, Department of Special Education, National Hsinchu University of Education<br>• Researcher, Yale Child Study Center, Yale University, USA<br>• Researcher, Child Psychiatric Center, National Taiwan University Hospital</p>
-                    <p><strong>Specialties:</strong><br>• Child and Adolescent Psychiatry, Infant Development Assessment, Adult Psychiatry, Sleep Medicine</p>
-                </div>
+        <!-- 5. 李元暉 職能治療師 -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1Y_5pxWtEOsjRiJvlvMmaQPIxv7yK8vw9" alt="李元暉職能治療師">
+            <div class="content">
+                <h2>李元暉 職能治療師</h2>
+                <p><strong>現職：</strong><br>• 中華民國兒童健康聯盟監事<br>• 社區精神復健發展學會理事<br>• 澎湖縣老人及身心障礙者關懷協會執行長</p>
+                <p><strong>學歷：</strong><br>• 東吳法律專業碩士班畢業<br>• 台大職能治療系畢業</p>
+                <p><strong>經歷：</strong><br>• 義守大學職能治療學系講師<br>• 職能治療師全聯會理事<br>• 營養師全聯會顧問專長</p>
             </div>
+        </div>
 
-            <!-- 5. Yun-Hue Li, Occupational Therapist -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1Y_5pxWtEOsjRiJvlvMmaQPIxv7yK8vw9" alt="Yun-Hue Li, Occupational Therapist">
-                <div class="content">
-                    <h2>Yun-Hue Li, Occupational Therapist</h2>
-                    <p><strong>Current Position:</strong><br>• Supervisor, Republic of China Children's Health Alliance<br>• Director, Community Psychiatric Rehabilitation Development Association<br>• Executive Director, Penghu County Elderly and Disabled Care Association</p>
-                    <p><strong>Education:</strong><br>• Master's in Law, Soochow University<br>• Bachelor's in Occupational Therapy, National Taiwan University</p>
-                    <p><strong>Experience:</strong><br>• Lecturer, Department of Occupational Therapy, I-Shou University<br>• Director, Occupational Therapists Union of the Republic of China<br>• Consultant, Dietitians Union of the Republic of China</p>
-                </div>
+        <!-- 6. 許美雲 臨床心理師 -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1a7zMtArFBgCQLRxlEBHbZwqGI4ikJpFl" alt="許美雲臨床心理師">
+            <div class="content">
+                <h2>許美雲 臨床心理師</h2>
+                <p><strong>現職：</strong><br>• 宇寧身心診所 臨床心理師</p>
+                <p><strong>學歷：</strong><br>• 中原大學心理研究所</p>
+                <p><strong>經歷：</strong><br>• 林口長庚醫院兒童心智科臨床心理師<br>• 桃園市特教專業團隊兼任臨床心理師<br>• 中原大學心理系兼任講師</p>
             </div>
+        </div>
 
-            <!-- 6. Mei-Yun Hsu, Clinical Psychologist -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=1a7zMtArFBgCQLRxlEBHbZwqGI4ikJpFl" alt="Mei-Yun Hsu, Clinical Psychologist">
-                <div class="content">
-                    <h2>Mei-Yun Hsu, Clinical Psychologist</h2>
-                    <p><strong>Current Position:</strong><br>• Clinical Psychologist, Yu-Ning Psychiatric Clinic</p>
-                    <p><strong>Education:</strong><br>• Master's in Psychology, Chung Yuan Christian University</p>
-                    <p><strong>Experience:</strong><br>• Clinical Psychologist, Division of Child Psychiatry, Linkou Chang Gung Memorial Hospital<br>• Adjunct Clinical Psychologist, Taoyuan City Special Education Professional Team<br>• Adjunct Lecturer, Department of Psychology, Chung Yuan Christian University</p>
-                </div>
+        <!-- 7. 張家愷 老師 -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=18pa-_34q9YrmkEYshHT31jCoUakiiULD" alt="張家愷老師">
+            <div class="content">
+                <h2>張家愷 老師</h2>
+                <p>張家愷老師（又稱廢慢老師）是一位專注於特殊教育與藝術共融的教育工作者，以其在美術、音樂等藝術元素引導特殊學生學習方面的卓越貢獻而聞名，曾獲得教育部優良特殊教育人員獎，並推動「廢慢哲學」支持性輔導，透過藝術與興趣幫助學生建立學習動力與生活目標。</p>
+                <p><strong>主要特色與貢獻</strong></p>
+                <p>* 藝術與特殊教育融合：相信藝術能吸引學習動機低的特教生，將藝術融入課程，提升學生專注力與生活品質。</p>
+                <p>* 「廢慢哲學」：提倡慢活、有品質的學習與生活，透過「廢棄物利用」與「慢」的創作過程，引導學生探索興趣。</p>
+                <p>* 多元教學：設計創新的特教藝術課程、舉辦教師工作坊、提供個別化學習策略，並關注學校圖書館的藝術文化功能。</p>
+                <p>* 輔導與支持：提供心理輔導與支持團體，幫助特殊學生找到生活目標與熱情。</p>
+                <p>* 獲獎肯定：榮獲教育部全國優良特殊教育人員獎、新北藝術教育貢獻獎。</p>
+                <p>* 活動達人：除了教育，也以「張家愷老師」的身份進行親子魔術表演，推廣專注、表達等能力。</p>
+                <p><strong>教育背景</strong></p>
+                <p>* 國立彰化師範大學學士。</p>
+                <p>* 華梵大學美術與文創學系碩士。</p>
+                <p><strong>尋找更多資訊</strong></p>
+                <p>* Linktree (廢慢老師)</p>
+                <p>* LinkedIn</p>
+                <p>* Facebook www.facebook.com</p>
             </div>
+        </div>
+    </div>
 
-            <!-- 7. Chia-Kai Chang, Teacher -->
-            <div class="speaker">
-                <img src="https://drive.google.com/uc?id=
+    <!-- ==================== 英文版（7位講者完整） ==================== -->
+    <div id="en">
+        <!-- 1. Robert Pennington -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1Do4-bgxRkGlZC5ITT4VlgHrQEjUhyd8v" alt="Robert Pennington">
+            <div class="content">
+                <h2>Professor Robert Pennington</h2>
+                <h3>Title</h3>
+                <p>• Professor and William T. Bryan Endowed Chair in Technology at the University of Kentucky.</p>
+                <p>• Director of the Center of Excellence on Inclusive Practice at the Ohio Center for Autism and Low Incidence (OCALI).</p>
+                <h3>Education</h3>
+                <p>• Ph.D. in Special Education from the University of Kentucky.</p>
+                <h3>Expertise</h3>
+                <p>• Core Focus: Applied Behavior Analysis (ABA), emphasizing evidence-based practices (EBPs) for students with disabilities.</p>
+                <p>• Researching systematic instruction, such as using response prompting and frames, to teach complex written expression skills (e.g., sentence construction, writing about text).</p>
+                <p>• Investigating the effectiveness of autonomous technology-based instructional programs for teaching writing.</p>
+                <p>• Developing and evaluating strategies like Functional Communication Training (FCT) to address challenging behavior and build communicative competence.</p>
+                <p>• Utilizing innovative technologies, including social robots, to facilitate social skills and peer interactions for children with ASD.</p>
+                <p>• Professional Development: Focused on improving the quality of teacher preparation, including co-developing the Autism and Low Incidence Classroom Observation Tool (ALCOT) and promoting High Leverage Practices.</p>
+                <h3>Certification and Award</h3>
+                <p>• Certification: Board Certified Behavior Analyst, Doctoral Level (BCBA-D).</p>
+                <p>• Licenses: Holds Kentucky Teaching Certificates for Moderate to Severe Disabilities (K-12) and Elementary Education (K-4).</p>
+                <p>• Selected Honors: Recipient of the Felix S. Barker Award, the KYABA Innovator in Behavior Analysis Award, and the UL President's Distinguished Faculty Award.</p>
+                <h3>Research Funding and Leadership</h3>
+                <p>• He actively drives professional development initiatives, having directed federally funded projects totaling over $9.5 million, aimed at integrating high-quality, evidence-based behavioral and instructional practices into inclusive school environments.</p>
+                <h3>Abstract</h3>
+                <p>• Dr. Pennington is a prominent special education researcher specializing in Applied Behavior Analysis and the needs of students with ASD and Extensive Support Needs (ESN).</p>
+                <p>• His research has demonstrated the efficacy of using systematic instruction and technology to build crucial academic skills, particularly written expression (e.g., sentence construction and paragraph writing).</p>
+            </div>
+        </div>
+
+        <!-- 2. Frederick Shic -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1sm-mGTSb8aYEaPylWSdTe1YntvpxgsaA" alt="Frederick Shic">
+            <div class="content">
+                <h2>Frederick Shic Ph.D.</h2>
+                <h3>Title</h3>
+                <p>• Professor of Pediatrics, Adjunct Professor of Computer Science and Engineering, and Adjunct Professor of Psychology, University of Washington</p>
+                <p>• Director, Seattle Children's Innovative Technologies Laboratory (SCITL), University of Washington</p>
+                <p>• Principal Investigator, Center for Child Health and Behavioral Development, Seattle Children's Research Institute</p>
+                <p>• Researcher, University of Washington Institute for Human Development and Disability (UW IHDD)</p>
+                <h3>Education</h3>
+                <p>• Ph.D. in Computer Science, Yale University</p>
+                <h3>Expertise</h3>
+                <p>• Explores mechanisms, markers, and developmental processes related to autism and other neuropsychiatric disorders, specializing in interdisciplinary research that integrates computer science, engineering, and pediatrics to investigate autism and developmental disabilities.</p>
+                <p>• Neurobehavioral Technologies: Applies innovative eye-tracking techniques to study social and cognitive development in infants and children with autism.</p>
+                <p>• Neurophysiological Techniques: Develops quantitative and visualization tools for brain metabolism and neurochemistry using near-infrared spectroscopy and magnetic resonance spectroscopy.</p>
+                <p>• Technology-Enhanced Behavioral Approaches: Utilizes mobile applications, social robots, and video games for research.</p>
+                <h3>Experience</h3>
+                <p>• Fellow of the American Pediatric Society (APS), which honors outstanding individuals who have made exceptional contributions to child health through leadership, education, research, policy, and clinical care.</p>
+                <p>• Research has been supported and funded by multiple organizations, including the National Institute of Mental Health (NIMH), Institute of Education Sciences (IES), Simons Foundation, and Autism Speaks.</p>
+                <p>• Former Director, Technology Innovation Laboratory (TIL), Yale School of Medicine.</p>
+                <p>• Former Assistant Professor, Yale School of Medicine.</p>
+                <h3>Abstract</h3>
+                <p>• Professor Frederick Shic is a distinguished scholar dedicated to integrating technology with clinical insight to develop innovative tools for understanding and improving the lives of children with autism and other developmental disabilities.</p>
+                <p>• His research employs neurobehavioral techniques such as eye-tracking, neurophysiological methods including functional near-infrared spectroscopy, and technology-enhanced behavioral paradigms involving mobile applications, social robots, and video games to investigate mechanisms, biomarkers, and developmental processes related to autism and other neuropsychiatric disorders.</p>
+                <p>• As the leader of Seattle Children's Innovative Technologies Laboratory (SCITL), he focuses on identifying novel biomarkers and advancing the understanding of social and cognitive development in autism through non-invasive techniques like eye-tracking and neuroimaging, aiming to develop next-generation clinical tools to improve outcomes for affected children and their families.</p>
+            </div>
+        </div>
+
+        <!-- 3. Dr. Hsin-Chang Ni -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1xpXJX8df5zPhwrb3nE6GuThlVR5WUejT" alt="Dr. Hsin-Chang Ni">
+            <div class="content">
+                <h2>Dr. Hsin-Chang Ni</h2>
+                <p><strong>Current Position:</strong><br>• Professor and Attending Physician, Division of Child Psychiatry, Linkou Chang Gung Memorial Hospital</p>
+                <p><strong>Experience:</strong><br>• Member, New Taipei City Disability Rights Promotion Group (Current)<br>• Executive Director, Taiwan Society of Child and Adolescent Developmental Disabilities (Current)<br>• Researcher, Division of Child Psychiatry, National Taiwan University Hospital<br>• Secretary-General, Taiwan Academy of Child and Adolescent Psychiatry</p>
+                <p><strong>Specialties:</strong><br>• Autism, Asperger's Syndrome, ADHD, Child and Adolescent Anxiety and Depression</p>
+            </div>
+        </div>
+
+        <!-- 4. Dr. Yu-Yu Wu -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1gTPQZljtyRK8ldD8FUe5RUAYqTdy3uP0" alt="Dr. Yu-Yu Wu">
+            <div class="content">
+                <h2>Dr. Yu-Yu Wu (Moderator)</h2>
+                <p><strong>Current Position:</strong><br>• Attending Physician, Yu-Ning Psychiatric Clinic</p>
+                <p><strong>Experience:</strong><br>• Former Director, Division of Child Psychiatry, Linkou Chang Gung Memorial Hospital<br>• Adjunct Lecturer, Department of Special Education, National Hsinchu University of Education<br>• Researcher, Yale Child Study Center, Yale University, USA<br>• Researcher, Child Psychiatric Center, National Taiwan University Hospital</p>
+                <p><strong>Specialties:</strong><br>• Child and Adolescent Psychiatry, Infant Development Assessment, Adult Psychiatry, Sleep Medicine</p>
+            </div>
+        </div>
+
+        <!-- 5. Yun-Hue Li -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1Y_5pxWtEOsjRiJvlvMmaQPIxv7yK8vw9" alt="Yun-Hue Li">
+            <div class="content">
+                <h2>Yun-Hue Li, Occupational Therapist</h2>
+                <p><strong>Current Position:</strong><br>• Supervisor, Republic of China Children's Health Alliance<br>• Director, Community Psychiatric Rehabilitation Development Association<br>• Executive Director, Penghu County Elderly and Disabled Care Association</p>
+                <p><strong>Education:</strong><br>• Master's in Law, Soochow University<br>• Bachelor's in Occupational Therapy, National Taiwan University</p>
+                <p><strong>Experience:</strong><br>• Lecturer, Department of Occupational Therapy, I-Shou University<br>• Director, Occupational Therapists Union of the Republic of China<br>• Consultant, Dietitians Union of the Republic of China</p>
+            </div>
+        </div>
+
+        <!-- 6. Mei-Yun Hsu -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=1a7zMtArFBgCQLRxlEBHbZwqGI4ikJpFl" alt="Mei-Yun Hsu">
+            <div class="content">
+                <h2>Mei-Yun Hsu, Clinical Psychologist</h2>
+                <p><strong>Current Position:</strong><br>• Clinical Psychologist, Yu-Ning Psychiatric Clinic</p>
+                <p><strong>Education:</strong><br>• Master's in Psychology, Chung Yuan Christian University</p>
+                <p><strong>Experience:</strong><br>• Clinical Psychologist, Division of Child Psychiatry, Linkou Chang Gung Memorial Hospital<br>• Adjunct Clinical Psychologist, Taoyuan City Special Education Professional Team<br>• Adjunct Lecturer, Department of Psychology, Chung Yuan Christian University</p>
+            </div>
+        </div>
+
+        <!-- 7. Chia-Kai Chang -->
+        <div class="speaker">
+            <img src="https://drive.google.com/uc?id=18pa-_34q9YrmkEYshHT31jCoUakiiULD" alt="Chia-Kai Chang">
+            <div class="content">
+                <h2>Chia-Kai Chang (Fei-Man Teacher)</h2>
+                <p>Chia-Kai Chang (also known as Fei-Man Teacher) is an educator focused on special education and art integration, renowned for his outstanding contributions in guiding special students through art elements such as fine arts and music. He has received the Ministry of Education's Excellent Special Education Personnel Award and promotes the "Fei-Man Philosophy" supportive counseling, helping students build learning motivation and life goals through art and interests.</p>
+                <p><strong>Main Features and Contributions</strong></p>
+                <p>* Integration of Art and Special Education: Believes art can attract special education students with low learning motivation, incorporating art into the curriculum to enhance student focus and quality of life.</p>
+                <p>* "Fei-Man Philosophy": Advocates slow living and quality learning and life, guiding students to explore interests through "waste utilization" and "slow" creation processes.</p>
+                <p>* Diverse Teaching: Designs innovative special education art courses, organizes teacher workshops, provides individualized learning strategies, and focuses on the artistic and cultural functions of school libraries.</p>
+                <p>* Counseling and Support: Provides psychological counseling and support groups to help special students find life goals and passions.</p>
+                <p>* Awards: Recipient of the Ministry of Education National Excellent Special Education Personnel Award and New Taipei Art Education Contribution Award.</p>
+                <p>* Activity Expert: In addition to education, performs parent-child magic shows as "Chia-Kai Chang Teacher" to promote focus, expression, and other abilities.</p>
+                <p><strong>Educational Background</strong></p>
+                <p>* Bachelor's from National Changhua University of Education.</p>
+                <p>* Master's from Huafan University Department of Art and Cultural Creative Industries.</p>
+                <p><strong>Find More Information</strong></p>
+                <p>* Linktree (Fei-Man Teacher)</p>
+                <p>* LinkedIn</p>
+                <p>* Facebook www.facebook.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleLang() {
+        const zh = document.getElementById('zh');
+        const en = document.getElementById('en');
+        const btn = document.querySelector('.lang-btn');
+        if (zh.style.display === 'none') {
+            zh.style.display = 'block';
+            en.style.display = 'none';
+            btn.textContent = 'English Version';
+        } else {
+            zh.style.display = 'none';
+            en.style.display = 'block';
+            btn.textContent = '切換中文版';
+        }
+    }
+</script>
+
+</body>
+</html>
